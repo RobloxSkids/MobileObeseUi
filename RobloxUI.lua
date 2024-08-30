@@ -10,10 +10,10 @@ local Tick = tick()
 -- Custom Fonts
 do 
 	-- 
-	writefile("smallest_pixel.ttf", game:HttpGet("https://github.com/f1nobe7650/other/raw/main/ProggyTiny.ttf"))
+	writefile("SkibidiSolutions.ttf", game:HttpGet("https://github.com/f1nobe7650/other/raw/main/ProggyTiny.ttf"))
 	-- 
 	local smallest_pixel = {
-		name = "SmallestPixel7",
+		name = "SkibidiBallSack",
 		faces = {
 			{
 				name = "Regular",
@@ -32,7 +32,7 @@ end;
 do -- Library
 	Library = {
 		Open = true;
-		Accent = Color3.fromRGB(132, 108, 188);
+		Accent = Color3.fromRGB(0, 0, 139);
 		Pages = {};
 		Sections = {};
 		Flags = {};
@@ -299,7 +299,7 @@ do -- Library
 			Icon.Name = "Icon"
 			Icon.AnchorPoint = Vector2.new(0, 0.5)
 			Icon.BackgroundColor3 = default
-			Icon.BorderColor3 = Color3.fromRGB(30, 30, 30)
+			Icon.BorderColor3 = Color3.fromRGB(0, 0, 139)
 			Icon.BorderSizePixel = 0
 			if count == 1 then
 				Icon.Position = UDim2.new(1, - (count * 34),0.5,0)
@@ -4047,3 +4047,5 @@ do
 		return notification
 	end
 end
+
+
